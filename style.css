@@ -81,7 +81,7 @@ hr +p{
         display: flex;
         justify-content: center;
         margin: 40PX;
-        width: 49%;
+        width: 60vh;
     }
     h1 ,h2{
         text-align: center;
