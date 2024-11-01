@@ -1,0 +1,114 @@
+header{
+    background-color: burlywood;
+    display: flex;
+}
+
+header .nav ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    list-style: none;
+    
+}
+header .nav ul a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: beige;
+}
+.logo{
+    font-size: 5em;
+    width: 45%;
+}
+.image1{
+    display: flex;
+    justify-content: center;
+    margin: 40PX;
+}
+h1 ,h2{
+    text-align: center;
+    text-shadow: 2px 2px 5px;
+    font-size: 5em;
+}
+.card{
+    width: 250px;
+    height: 240px;
+    background-color: chocolate;
+    padding: 20px;
+    margin: 20px;
+}
+.card-footer{
+    display: flex;
+}
+.cardF2{
+    margin: 20px;
+}
+.row{
+    display: flex;
+}
+hr +p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+   
+    header{
+        background-color: burlywood;
+        display: flex;
+    }
+
+    header .nav ul{
+        display: block;
+       
+        height: 80px;
+        list-style: none;
+        
+    }
+    header .nav ul a{
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 1em;
+        color: beige;
+    }
+    .logo{
+        font-size: 5em;
+        width: 45%;
+    }
+    .image1{
+        display: flex;
+        justify-content: center;
+        margin: 40PX;
+        width: 49%;
+    }
+    h1 ,h2{
+        text-align: center;
+        text-shadow: 2px 2px 5px;
+        font-size: 4em;
+    }
+    .card{
+        width: 250px;
+        height: 240px;
+        background-color: chocolate;
+        padding: 20px;
+        margin: 20px;
+    }
+    .card-footer{
+        display: flex;
+    }
+    .cardF2{
+        margin: 20px;
+    }
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .row{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+}  
